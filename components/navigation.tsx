@@ -22,7 +22,7 @@ export function Navigation() {
     <nav className="sticky top-0 z-50 border-b bg-background/95 backdrop-blur-sm border-border">
       <div className="max-w-4xl px-4 mx-auto sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex-shrink-0">
+          <div className="shrink-0">
             <a
               href="#"
               className="text-2xl font-bold transition-colors text-foreground hover:text-accent"
@@ -47,7 +47,7 @@ export function Navigation() {
           {/* Mobile Navigation */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="md:hidden">
-              <Button variant="ghost" size="icon">
+              <Button variant="ghost" size="icon" aria-label="menu button">
                 <Menu className="w-5 h-5" />
               </Button>
             </SheetTrigger>

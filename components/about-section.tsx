@@ -30,11 +30,11 @@ export function AboutSection() {
             </h3>
             <ul className="space-y-3">
               {[
-                // "Accessibility",
-                "Core Web Vitals",
+                "Accessibility",
                 "Performance Optimization",
-                "Developer Experience",
+                "Search Engine Optimization",
                 "Security Best Practices",
+                "Developer Experience",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <span className="font-bold text-accent">→</span>
