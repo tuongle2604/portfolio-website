@@ -54,12 +54,12 @@ export const experiences: Experience[] = [
       "Improved front-end performance by optimizing rendering behavior, bundle size, and caching strategies",
       "Supported team members by resolving UI issues and reviewing pull requests to maintain code quality and standards",
     ],
-    tech: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Shadncn"],
+    tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Shadncn"],
   },
   {
     company: "Sutrix Solutions",
     role: "Frontend Developer",
-    period: "2020 - 2022",
+    period: "10/2018 - 7/2020",
     // description: "Developed and maintained customer-facing applications",
     bullets: [
       "Developed front-end applications based on design specifications using Vue.js",
@@ -72,7 +72,7 @@ export const experiences: Experience[] = [
   {
     company: "Datamart Vietnam",
     role: "Web developer",
-    period: "2019 - 2020",
+    period: "10/2017 - 10/2018",
     // description: "Built features for early-stage SaaS product",
     bullets: [
       "Built and maintained web applications using Vuejs",
@@ -88,7 +88,7 @@ export const projects: Project[] = [
     name: "Next Movie",
     description:
       "Movies app demo built using nextjs, tailwindcss, shadcn and The Movie Database API with multilanguage support.",
-    tech: ["Nextjs", "React", "Tailwind CSS", "Shadcn"],
+    tech: ["Nextjs", "React", "Tailwind CSS", "TMDB API"],
     github: "https://github.com/tuongle2604/next-movie",
     demo: "https://next-movie.tuongle.dev/",
     featured: true,
@@ -97,7 +97,7 @@ export const projects: Project[] = [
     name: "Next Store",
     description:
       "Simple ecommerce website using nextjs, tailwindcss, shadcn integrated with payloadcms for content management.",
-    tech: ["Nextjs", "React", "Tailwind CSS", "Shadcn"],
+    tech: ["Nextjs", "React", "Tailwind CSS", "Monorepo"],
     github: "https://github.com/tuongle2604/next-store-with-payloadcms",
     demo: "https://next-store.tuongle.dev/",
     featured: true,
@@ -106,53 +106,10 @@ export const projects: Project[] = [
     name: "Next Store CMS",
     description:
       "A cms for ecommerce website using nextjs, payloadcms and postgresql for managing products and content.",
-    tech: ["Next.js", "PayloadCMS", "Neon", "PostgreSQL"],
+    tech: ["Nextjs", "PayloadCMS", "Neon", "PostgreSQL", "Monorepo"],
     github: "https://github.com/tuongle2604/next-store-with-payloadcms",
     demo: "https://next-store-cms.tuongle.dev/",
     featured: true,
-  },
-  // {
-  //   name: "E-commerce Platform",
-  //   description: "Full-stack e-commerce solution with SSR optimization and dynamic pricing.",
-  //   tech: ["Next.js", "Stripe", "PostgreSQL", "TypeScript"],
-  //   github: "https://github.com",
-  //   demo: "https://example.com",
-  // },
-  // {
-  //   name: "Analytics CLI Tool",
-  //   description: "Command-line tool for analyzing and reporting on web performance metrics.",
-  //   tech: ["Node.js", "TypeScript", "Commander.js"],
-  //   github: "https://github.com",
-  // },
-  // {
-  //   name: "Design System Documentation",
-  //   description: "Comprehensive documentation site for design system with live component previews.",
-  //   tech: ["Next.js", "MDX", "Tailwind CSS", "TypeScript"],
-  //   github: "https://github.com",
-  //   demo: "https://example.com",
-  // },
-]
-
-export const skills: SkillCategory[] = [
-  {
-    name: "Frontend",
-    skills: ["React", "Next.js", "TypeScript", "React Hooks", "Server Components", "Client Components"],
-  },
-  {
-    name: "UI & Design",
-    skills: ["Tailwind CSS", "shadcn/ui", "Radix UI", "CSS Modules", "Responsive Design", "Accessibility (WCAG)"],
-  },
-  {
-    name: "Performance & Security",
-    skills: ["Web Vitals Optimization", "Code Splitting", "XSS Prevention", "CSP", "CORS", "Performance Auditing"],
-  },
-  {
-    name: "Tooling",
-    skills: ["Vite", "Turbopack", "ESLint", "Prettier", "Vitest", "Playwright", "Git"],
-  },
-  {
-    name: "Backend & Data",
-    skills: ["Node.js", "PostgreSQL", "REST APIs", "GraphQL", "Supabase", "Authentication"],
   },
 ]
 

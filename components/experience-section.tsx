@@ -6,7 +6,7 @@ export function ExperienceSection() {
     <section id="experience" className="py-12 lg:py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-12">
-          <a href="#">Experience</a>
+          Experience
         </h2>
 
         <div className="space-y-8">

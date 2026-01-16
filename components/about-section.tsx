@@ -6,7 +6,7 @@ export function AboutSection() {
     >
       <div className="max-w-4xl mx-auto">
         <h2 className="mb-12 text-4xl font-bold md:text-5xl text-foreground">
-          <a href="#">About</a>
+          About
         </h2>
 
         <div className="grid gap-12 md:grid-cols-2">
@@ -32,7 +32,7 @@ export function AboutSection() {
               {[
                 "Accessibility",
                 "Performance Optimization",
-                "Search Engine Optimization",
+                // "Search Engine Optimization",
                 "Security Best Practices",
                 "Developer Experience",
               ].map((item) => (
