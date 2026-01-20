@@ -20,9 +20,8 @@ export function HeroSection() {
             </h1>
 
             <p className="max-w-2xl mb-8 text-base leading-relaxed md:text-xl text-muted-foreground ">
-              I build responsive, well-structured websites optimized for
-              clarity, usability, and performance, delivering excellent Core Web
-              Vitals, Lighthouse, and PageSpeed scores.
+              I design and ship production-ready interfaces that turn complex
+              requirements into fast, maintainable, real-world products.
             </p>
 
             <div className="flex flex-wrap gap-2 mb-8 ">

@@ -9,22 +9,23 @@ export function AboutSection() {
           About
         </h2>
 
-        <div className="grid gap-12 md:grid-cols-2">
-          <div>
+        <div className="grid gap-12 md:grid-cols-5">
+          <div className="md:col-span-3">
             <h3 className="mb-4 text-2xl font-bold text-foreground">Summary</h3>
             <p className="mb-4 leading-relaxed text-muted-foreground">
-              With 7 years of experience in frontend development, I build and
-              maintain production-grade web applications with a strong focus on
-              scalable UI architecture, Core Web Vitals, SEO, and long-term
+              Front-End Developer with 7 years of experience building and
+              maintaining production-grade web applications. Owns projects
+              end-to-end, from concept through production, with a focus on
+              scalable UI architecture, performance, and long-term
               maintainability.
             </p>
             <p className="leading-relaxed text-muted-foreground">
-              I enjoy learning new technologies and understanding how things
-              work under the hood.
+              Enjoys learning new technologies and understanding how things work
+              under the hood.
             </p>
           </div>
 
-          <div>
+          <div className="md:md:col-span-2">
             <h3 className="mb-4 text-2xl font-bold text-foreground">
               Key Focus Areas
             </h3>
