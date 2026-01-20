@@ -44,11 +44,11 @@ export function HeroSection() {
               <Button asChild size="lg" className="gap-2">
                 <a href="#projects">View Projects</a>
               </Button>
-              <Button asChild variant="outline" size="lg">
+              {/* <Button asChild variant="outline" size="lg">
                 <a href="/tuongle-cv.pdf" download>
                   Download CV
                 </a>
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
